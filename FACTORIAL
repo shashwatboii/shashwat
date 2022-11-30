@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main(){
+	int i,factorial=1,num;
+	printf("koi bhi number daal de: ");
+	scanf("%d",&num);
+	
+	for(i=1;i<=num;i++)
+		factorial=factorial*i;
+	
+  printf("%d ka factorial hai: %d",num,factorial);
+	return 0;
+}
